@@ -6,9 +6,7 @@ const SortForm = ({ onSort }) => {
   const [sortOption, setSortOption] = useState('');
 
   const handleSortChange = (e) => {
-    // setSortOption(e.target.value);
 
-    // onSort(e.target.value);
   };
 
   return (

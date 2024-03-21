@@ -1,8 +1,5 @@
 .book-list {
     width: auto;
-    /* background-color: #f8f9fa; */
-    /* border: 1px solid #ced4da; */
-    /* border-radius: 4px; */
     padding: 8px;
   }
   
@@ -14,21 +11,22 @@
   .book-list li {
     border: 1px solid #ced4da;
     padding: 8px;
-    /* margin-bottom: 8px; */
+
   }
   
   .book-title {
-    /* font-weight: bold; */
+
   }
   
   .author {
-    display: flex;
+
     justify-content: space-between;
+    display: flex;
     font-size: 12px;
   }
   
   .author-name {
-    background-color: #ced4da;
+    background-color: #3d3e3f;
     color: #fff;
     padding: 2px 4px;
     border-radius: 4px;
