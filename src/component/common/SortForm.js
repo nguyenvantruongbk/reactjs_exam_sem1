@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import { Form, FormControl, Button } from 'react-bootstrap';
 
+
 const SortForm = ({ onSort }) => {
   const [sortOption, setSortOption] = useState('');
 
   const handleSortChange = (e) => {
-    setSortOption(e.target.value);
-    // Gọi hàm sắp xếp khi lựa chọn thay đổi
-    onSort(e.target.value);
+    // setSortOption(e.target.value);
+
+    // onSort(e.target.value);
   };
 
   return (
