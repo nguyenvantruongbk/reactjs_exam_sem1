@@ -1,0 +1,22 @@
+.book-list {
+    width: auto;
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 8px;
+  }
+  
+  .book-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .book-list li {
+    margin-bottom: 4px;
+    cursor: pointer;
+  }
+  
+  .book-list li:hover {
+    background-color: #e9ecef;
+  }
+  
